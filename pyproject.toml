@@ -1,0 +1,11 @@
+[project]
+name = "nlp-with-transformers"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "transformers[onnxruntime,optuna,sentencepiece,sklearn,tf,torch,vision]==4.16.2",
+    "ipykernel>=6.29.5",
+    "bertviz==1.2.0",
+]
